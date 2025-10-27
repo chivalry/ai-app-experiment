@@ -1,0 +1,10 @@
+{
+  "cSpell.enabled": true,
+  "cSpell.enabledFileTypes": {
+    "markdown": true,
+    "md": true,
+    "plaintext": true
+  },
+  "cSpell.configFile": "${workspaceFolder}/cspell.json",
+  "cSpell.userWords": []
+}

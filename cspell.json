@@ -1,0 +1,53 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": [
+    "Gunicorn",
+    "gunicorn",
+    "Dockerfile",
+    "Dockerfiles",
+    "dockerfile",
+    "nginx",
+    "pg_isready",
+    "psycopg",
+    "psycopg3",
+    "Alembic",
+    "Flask-Migrate",
+    "Vite",
+    "Vitest",
+    "pgadmin",
+    "Adminer",
+    "wait-for-it",
+    "uvicorn",
+    "gunicorn",
+    "Alembic",
+    "SQLAlchemy",
+    "psycopg2",
+    "psycopg3",
+    "flask-cors",
+    "FLASK_APP",
+    "FLASK_ENV",
+    "DATABASE_URL",
+    "pg_dump",
+    "pg_restore"
+  ],
+  "ignorePaths": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/.venv/**",
+    ".git/**"
+  ],
+  "ignoreWords": [],
+  "ignoreRegExpList": [
+    "/^```[\\s\\S]*?```/m",
+    "/^~~~[\\s\\S]*?~~~/m",
+    "/`[^`]*`/g",
+    "/^Dockerfile$/i",
+    "/^nginx$/i",
+    "/^pg_isready$/i",
+    "/^Gunicorn$/i",
+    "/^psycopg/",
+    "/^FLASK_APP$/i",
+    "/^DATABASE_URL$/i"
+  ]
+}
